@@ -65,7 +65,9 @@ padding-bottom: 32px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
+.logo-link{
+margin-right: 76px;
+}
 .logo-web {
   color: #4d5ae5;
   text-transform: uppercase;
@@ -82,8 +84,7 @@ padding-bottom: 32px;
 .site-nav{
   display: flex;
   align-items: center;
-margin-left: 76px;
-padding: 0px;
+margin-right: auto;
 }
 
 .contact-item{
@@ -103,6 +104,7 @@ padding: 0px;
 }
 .header-list{
   display: flex;
+  gap: 40px;
 
 }
 .header-container{
@@ -111,7 +113,7 @@ align-items: center;
 }
 
 .header-item{
-  margin-left: 332px;
+  margin-right : 332px;
 padding: 0px;
 }
 .header-link {
@@ -144,13 +146,15 @@ letter-spacing: 0.02em;
 color: var(--main-title-color);
 margin-bottom: 20px;
 margin: 0 auto;
-width: 496px;
+max-width: 496px;
 height: 120px;
 left: 472px;
 top: 260px;
 }
 
 .modal-btn {
+  min-width: 169px;
+height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -174,6 +178,8 @@ margin-top: 48px;
 
 .about-list{
   background: #F4F4FD;
+   display: flex;
+   gap: 24px;
 }
  .about{
   padding-top: 60px;
@@ -226,6 +232,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+max-width: 264px;
 }
 
 .footer {
