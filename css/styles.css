@@ -316,13 +316,19 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-top: 72px;
-  margin-bottom: 120px;
 }
+
 .row-cards {
   width: calc(100% - 48 / 3);
 }
-.container-row-cardsХ {
+
+.cards-container {
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .hero-media-img-title {
@@ -331,6 +337,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-img-description {
