@@ -26,7 +26,6 @@ button {
 
 address {
   font-style: normal;
-  display: flex;
 }
 
 body {
@@ -116,9 +115,9 @@ img {
   color: #404bbf;
 }
 
-.contact-item {
-  font-style: normal;
-  margin-left: auto;
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact {
@@ -131,6 +130,11 @@ img {
 .contact:hover,
 .contact:focus {
   color: #404bbf;
+}
+
+.contact-item {
+  font-style: normal;
+  margin-left: auto;
 }
 
 /*======================Hero=====================*/
