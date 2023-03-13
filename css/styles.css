@@ -30,7 +30,7 @@ body {
   margin: 0;
 }
 img{
-  display: block;
+display: block;
 max-width: 100%;
 height: auto;
 }
@@ -282,7 +282,6 @@ padding-bottom: 72px;
   width: calc(100% - 48 / 3);
 }
 .container-row-cardsХ{
-padding: ;
 }
 
 .portfolio-modal-btn{
