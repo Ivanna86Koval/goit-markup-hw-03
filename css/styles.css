@@ -45,7 +45,6 @@ height: auto;
   margin: 0 auto;
  padding: 0 15px;
  outline: 2px solid #7000ff;
-
 }
 
 /*======================Header===================*/
@@ -175,7 +174,8 @@ margin-top: 48px;
   background: #404BBF;
 }
 
-
+.about-wrap{
+}
 .about-list{
   background: #F4F4FD;
    display: flex;
@@ -198,22 +198,31 @@ margin-top: 48px;
   text-align: center;
   display: flex;
   align-items: center;
+  gap: 24px;
   background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
+} 
+.hero-list{
+   display: flex;
+   gap: 24px;
+   margin-top: 72px;
 }
+
 .hero-second-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 }
 .hero-main-title {
   font-weight: 700;
@@ -226,17 +235,33 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 /*======================footer=====================*/
+.container-footer{ 
+max-width: 1440px;
+  margin: 0 auto;
+ padding: 0 15px;
+ outline: 2px solid #7000ff;}
 
 .footer-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+display: flex;
 max-width: 264px;
 }
 
 .footer {
-  background-color: #2e2f42;
+    background:#2E2F42;
+  margin-bottom: 18px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+}
+.logo-footer{
+  
 }
 /*==================portfolio===============*/
 
