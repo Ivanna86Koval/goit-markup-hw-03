@@ -61,20 +61,17 @@ padding-bottom: 24px;
 }
 
 .logo-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.logo-link{
 margin-right: 76px;
 }
 
 .logo-web {
+  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
@@ -110,17 +107,15 @@ margin-right: auto;
 .header-list{
   display: flex;
   gap: 40px;
-
+    margin-right : 332px;
+padding: 0px;
 }
+
 .header-container{
 display: flex;
-align-items: center;
-justify-content: space-between;
 }
 
 .header-item{
-  margin-right : 332px;
-padding: 0px;
 }
 .header-link {
   font-weight: 500;
@@ -185,7 +180,6 @@ margin-top: 48px;
 .about-wrap{
 }
 .about-list{
-  background: #F4F4FD;
    display: flex;
    gap: 24px;
    margin-top: 72px;
@@ -226,6 +220,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
    margin-top: 72px;
 }
 .hero-text{
+padding: 32px;
  
 }
 
@@ -236,6 +231,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 .section-description {
   font-size: 16px;
@@ -243,6 +239,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   letter-spacing: 0.02em;
   color: #434455;
   max-width: 264px;
+  text-align: center;
 }
 .hero-main-title {
   font-weight: 700;
